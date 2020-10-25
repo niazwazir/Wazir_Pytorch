@@ -34,6 +34,11 @@ The 91-image, Set5 dataset converted to HDF5 can be downloaded from the links be
 Otherwise, you can use `prepare.py` to create custom dataset.
 
 ```bash
+Code obtained from
+https://github.com/yjn870/SRCNN-pytorch
+
+
+
 python train.py --train-file "BLAH_BLAH/91-image_x3.h5" \
                 --eval-file "BLAH_BLAH/Set5_x3.h5" \
                 --outputs-dir "BLAH_BLAH/outputs" \
