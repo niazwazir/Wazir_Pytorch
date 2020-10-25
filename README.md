@@ -127,3 +127,5 @@ PSNR was calculated on the Y channel.
     	</td>
     </tr>
 </table>
+Test 
+python test.py --weights-file "pretrained/epoch_60.pth" --image-file "data/baby.png"
