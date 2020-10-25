@@ -138,3 +138,7 @@ PSNR was calculated on the Y channel.
           
 ```
 python test.py --weights-file "pretrained/epoch_60.pth" --image-file "data/baby.png"
+
+
+python train.py --train-file "trainingdataset/91-image_x4.h5" --eval-file "eval/Set5_x4.h5"  --outputs-dir "wazir/" --scale 4 --lr 1e-4 --batch-size 16 --num-epochs 100 --num-workers 8 --seed 123    
+
